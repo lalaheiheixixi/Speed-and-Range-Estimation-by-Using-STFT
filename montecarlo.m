@@ -92,7 +92,7 @@ function [Vest, Xest, SNR] = myestimate(InputType, f0, delta, t0, v, m)
     
     % STFT Calculation
     
-    x=Sr;   % to not change our part1 code
+    x=Sr;   % to not change the part1 code
     M=220;  % window overlap
     N=250;  % window size
 
